@@ -1,13 +1,13 @@
 {
-  "name": "@finance/eslint-config-loan",
+  "name": "simple-eslint",
   "version": "2.0.0",
-  "description": "Shared eslint config for shopee finance frontend team",
+  "description": "Simple eslint",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "ssh://gitlab@git.garena.com:2222/shopee/loan-service/credit_frontend/eslint-config-lint.git"
+    "url": "https://github.com/SunshowerC/simple-lint.git"
   },
-  "homepage": "https://git.garena.com/shopee/loan-service/credit_frontend/eslint-config-lint",
+  "homepage": "https://github.com/SunshowerC/simple-lint.git",
   "license": "MIT",
   "files": [
     "rules",

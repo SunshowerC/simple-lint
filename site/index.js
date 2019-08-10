@@ -393,7 +393,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <GitHubCorners href="https://git.garena.com/shopee/loan-service/credit_frontend/eslint-config-lint" />
+        <GitHubCorners href="" />
         {this.renderHeader()}
         <div className="flex-center">
           <div className="container-fluid">

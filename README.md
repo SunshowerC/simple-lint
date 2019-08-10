@@ -1,6 +1,6 @@
 # @finance/eslint-config-loan
 
-> Shared eslint config for shopee finance frontend team
+> Simple Eslint
 
 ---
 
@@ -226,17 +226,6 @@ site目录为规则配置站点，基于react实现
 - site
   根据 scripts 处理好的数据， 在页面中展示
 
-### 自动化部署说明
-
-当前站点部署在10.65.136.147、10.65.136.148上,目录为/data/www/test/rule
-
-域名为https://rule.test.lenteradana.co.id
-
-master有新的提交时，Jenkins自动完成构建，并将结果更新到目标机器上
-
-Jenkins地址 https://jenkins.shopeemobile.com/view/kredit/job/shopee-kredit-lint/
-
-后续有规则调整，在dev分支提交后merge request到master，合并后自动发布规则的站点文档到服务器
 
 ## 暂有问题的规则列表
 
