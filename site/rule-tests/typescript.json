@@ -1,0 +1,10 @@
+{
+    "@typescript-eslint/.eslintrc.js": {
+        "good": "",
+        "bad": ""
+    },
+    "@typescript-eslint/no-misused-new": {
+        "good": "",
+        "bad": "<span class=\"token comment\">// bad</span>\n<span class=\"token keyword\">class</span> <span class=\"token class-name\">C</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token keyword\">new</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">:</span> <span class=\"token constant\">C</span>\n<span class=\"token punctuation\">}</span>\n\n<span class=\"token keyword\">interface</span> <span class=\"token class-name\">I</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token keyword\">new</span> <span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">:</span> <span class=\"token constant\">I</span>\n  <span class=\"token function\">constructor</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">:</span> <span class=\"token keyword\">void</span>\n<span class=\"token punctuation\">}</span>\n"
+    }
+}

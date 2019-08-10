@@ -1,0 +1,4 @@
+// good
+function foo() {
+  // dosomething
+}

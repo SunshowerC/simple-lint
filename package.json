@@ -1,0 +1,98 @@
+{
+  "name": "@finance/eslint-config-loan",
+  "version": "2.0.0",
+  "description": "Shared eslint config for shopee finance frontend team",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://gitlab@git.garena.com:2222/shopee/loan-service/credit_frontend/eslint-config-lint.git"
+  },
+  "homepage": "https://git.garena.com/shopee/loan-service/credit_frontend/eslint-config-lint",
+  "license": "MIT",
+  "files": [
+    "rules",
+    ".eslintrc.js",
+    ".prettierrc.js",
+    "index.js",
+    "react-typescript.js",
+    "react.js",
+    "typescript.js",
+    "vue-typescript.js",
+    "vue.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "styleguide"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint src",
+    "start": "npm test && npm run site",
+    "build": "rm -rf docs && node ./scripts/build.js && parcel build site/index.html --out-dir docs --public-url ./",
+    "test": "node ./test/index.js",
+    "site": "node ./scripts/build.js && parcel -p 2345 site/index.html",
+    "deploy": "npm run build && ./deploy/sg_deploy.sh"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.7"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "prettier": "1.14.3",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/prompt": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "babel-eslint": "^9.0.0",
+    "babylon": "^6.18.0",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "fs-extra": "^8.1.0",
+    "husky": "^3.0.0",
+    "mobi-plugin-color": "^1.0.0",
+    "mobi.css": "^3.1.1",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "1.14.3",
+    "prismjs": "^1.15.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "typescript": "^3.5.3",
+    "vue-eslint-parser": "^5.0.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "author": "wenkang.lin"
+}

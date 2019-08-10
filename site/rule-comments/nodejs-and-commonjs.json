@@ -1,0 +1,13 @@
+{
+    "callback-return": "@off\n在主函数块之外使用的回调始终是return语句的一部分或紧接在语句之前\nENG:enforce return after a callback",
+    "global-require": "@off\n所有调用require()都位于模块的顶层\nENG:require all requires be top-level",
+    "handle-callback-err": "@off\n当在Node.js中使用回调模式时，必须处理error\nENG:enforces error handling in callbacks (node environment)",
+    "no-buffer-constructor": "不允许调用和构造Buffer()构造函数。\nENG:disallow use of the Buffer() constructor",
+    "no-mixed-requires": "@off\n禁止require调用与常规变量声明混合\nENG:disallow mixing regular variable and require declarations",
+    "no-new-require": "禁止 new require 表达的使用。\nENG:disallow use of new operator with the require function",
+    "no-path-concat": "禁止字符串连接__dirname和__filename\npath.join()和path.resolve()是任何地方正在创建的文件或目录路径为字符串连接合适的替代品。\nENG:disallow string concatenation with __dirname and __filename",
+    "no-process-env": "@off\n禁止使用process.env以避免全局依赖\nENG:disallow use of process.env",
+    "no-process-exit": "@off\n禁止 process.exit() 在Node.js JavaScript中使用\nENG:disallow process.exit()",
+    "no-restricted-modules": "@off\n指定你禁止在应用程序中使用的nodejs模块\nENG:restrict usage of specified node modules",
+    "no-sync": "@off\n禁止在Node.js中调用同步方法。它特别针对方法后缀“ Sync”\nENG:disallow use of synchronous methods (off by default)"
+}

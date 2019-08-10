@@ -1,0 +1,2 @@
+// good
+;<Hello name="John" />

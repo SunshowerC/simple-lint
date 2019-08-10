@@ -1,0 +1,3 @@
+{
+    "strict": "严格模式\n@fixable 禁止使用 'strict';\nENG:babel inserts `'use strict';` for us"
+}

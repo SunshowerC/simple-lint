@@ -1,0 +1,4 @@
+// good
+foo()
+
+foo('bar')
