@@ -4,7 +4,7 @@
 
 ---
 
-* [simple-eslint](#financesimple-eslint)
+* [simple-eslint](#simple-eslint)
   * [安装使用](#安装使用)
   * [配置集](#配置集)
   * [配置解读](#配置解读)
