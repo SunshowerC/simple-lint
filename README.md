@@ -1,10 +1,10 @@
-# simple-eslint
+# eslint-config-elegant
 
 > Simple Eslint
 
 ---
 
-* [simple-eslint](#simple-eslint)
+* [eslint-config-elegant](#eslint-config-elegant)
   * [安装使用](#安装使用)
   * [配置集](#配置集)
   * [配置解读](#配置解读)
@@ -28,14 +28,14 @@
 
 ```shell
 npm set registry https://npm.garenanow.com
-npm install simple-eslint
+npm install eslint-config-elegant
 ```
 
 或者使用 `yarn` 安装：
 
 ```shell
 yarn config set registry https://npm.garenanow.com
-yarn add simple-eslint
+yarn add eslint-config-elegant
 ```
 
 > **注意：**另外还需要根据使用的配置集，手动安装对应的依赖包。安装方式参考下面的**使用方法**。
@@ -71,7 +71,7 @@ yarn add simple-eslint
 npm install babel-eslint@^9.0.0 eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16.0 eslint-plugin-prettier@^3.0.1 prettier@1.14.3 --save-dev --save-exact
 ```
 
-> 并不需要手动添加 prettier 配置文件，因为已内置于 `simple-eslint` 中
+> 并不需要手动添加 prettier 配置文件，因为已内置于 `eslint-config-elegant` 中
 
 或者使用 `yarn` 安装：
 
@@ -83,7 +83,7 @@ yarn add eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16
 
 ```js
 module.exports = {
-  extends: ['simple-eslint']
+  extends: ['eslint-config-elegant']
 }
 ```
 
@@ -95,7 +95,7 @@ module.exports = {
 npm install eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16.0 eslint-plugin-prettier@^3.0.1 prettier@1.14.3 typescript@^3.3.3333 eslint-import-resolver-typescript@^1.1.1 @typescript-eslint/eslint-plugin@^1.4.2 @typescript-eslint/parser@^1.4.2 --save-dev --save-exact
 ```
 
-> 并不需要手动添加 prettier 配置文件，因为已内置于 `simple-eslint` 中
+> 并不需要手动添加 prettier 配置文件，因为已内置于 `eslint-config-elegant` 中
 
 或者使用 `yarn` 安装：
 
@@ -107,7 +107,7 @@ yarn add eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16
 
 ```js
 module.exports = {
-  extends: ['simple-eslint/typescript']
+  extends: ['eslint-config-elegant/typescript']
 }
 ```
 
@@ -119,7 +119,7 @@ module.exports = {
 npm install babel-eslint@^9.0.0 eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16.0 eslint-plugin-prettier@^3.0.1 eslint-plugin-vue@^5.2.2 prettier@1.14.3 --save-dev --save-exact
 ```
 
-> 并不需要手动添加 prettier 配置文件，因为已内置于 `simple-eslint` 中
+> 并不需要手动添加 prettier 配置文件，因为已内置于 `eslint-config-elegant` 中
 
 或者使用 `yarn` 安装：
 
@@ -131,7 +131,7 @@ yarn add babel-eslint@^9.0.0 eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint
 
 ```js
 module.exports = {
-  extends: ['simple-eslint/vue']
+  extends: ['eslint-config-elegant/vue']
 }
 ```
 
@@ -143,7 +143,7 @@ module.exports = {
 npm install eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16.0 eslint-plugin-prettier@^3.0.1 eslint-plugin-vue@^5.2.2 prettier@1.14.3 typescript@^3.3.3333 eslint-import-resolver-typescript@^1.1.1 @typescript-eslint/eslint-plugin@^1.4.2 @typescript-eslint/parser@^1.4.2 --save-dev --save-exact
 ```
 
-> 并不需要手动添加 prettier 配置文件，因为已内置于 `simple-eslint` 中
+> 并不需要手动添加 prettier 配置文件，因为已内置于 `eslint-config-elegant` 中
 
 或者使用 `yarn` 安装：
 
@@ -155,7 +155,7 @@ yarn add eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16
 
 ```js
 module.exports = {
-  extends: ['simple-eslint/vue-typescript']
+  extends: ['eslint-config-elegant/vue-typescript']
 }
 ```
 
@@ -167,7 +167,7 @@ module.exports = {
 npm install babel-eslint@^9.0.0 eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16.0 eslint-plugin-prettier@^3.0.1 eslint-plugin-react@^7.12.3 prettier@1.14.3 --save-dev --save-exact
 ```
 
-> 并不需要手动添加 prettier 配置文件，因为已内置于 `simple-eslint` 中
+> 并不需要手动添加 prettier 配置文件，因为已内置于 `eslint-config-elegant` 中
 
 或者使用 `yarn` 安装：
 
@@ -179,7 +179,7 @@ yarn add babel-eslint@^9.0.0 eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint
 
 ```js
 module.exports = {
-  extends: ['simple-eslint/react']
+  extends: ['eslint-config-elegant/react']
 }
 ```
 
@@ -191,7 +191,7 @@ module.exports = {
 npm install eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16.0 eslint-plugin-prettier@^3.0.1 eslint-plugin-react@^7.12.3 prettier@1.14.3 typescript@^3.3.3333 eslint-import-resolver-typescript@^1.1.1 @typescript-eslint/eslint-plugin@^1.4.2 @typescript-eslint/parser@^1.4.2 --save-dev --save-exact
 ```
 
-> 并不需要手动添加 prettier 配置文件，因为已内置于 `simple-eslint` 中
+> 并不需要手动添加 prettier 配置文件，因为已内置于 `eslint-config-elegant` 中
 
 或者使用 `yarn` 安装：
 
@@ -203,7 +203,7 @@ yarn add eslint@^5.15.0 eslint-config-prettier@^4.1.0 eslint-plugin-import@^2.16
 
 ```js
 module.exports = {
-  extends: ['simple-eslint/react-typescript']
+  extends: ['eslint-config-elegant/react-typescript']
 }
 ```
 

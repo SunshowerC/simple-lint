@@ -1,6 +1,6 @@
 {
-  "name": "simple-eslint",
-  "version": "1.0.1",
+  "name": "eslint-config-elegant",
+  "version": "1.0.0",
   "description": "Simple eslint",
   "main": "index.js",
   "repository": {
